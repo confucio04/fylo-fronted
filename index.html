@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+
+  <header class="fylo">
+    <div class="container">
+      <div class="fylo-container">
+        <figure class="fylo-logo">
+          <img src="src/images/logo.svg" alt="logo">
+        </figure>
+        <nav class="fylo-navigation">
+          <ul class="navigation__menu">
+            <li>
+              <a href="#" class="link link--small link--dark-blue">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--dark-blue">
+                Team
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--dark-blue">
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="fylo-all">
+    <div class="container">
+      <div class="all-container">
+        <div class="all-info">
+          <h2 class="title title--big title--dark-blue">
+            All your files in one secure <br>
+            location, accessible <br> 
+            anywhere.
+          </h2>
+          <p class="paragraph paragraph--dark-blue">
+            Fylo stores your most important files in one <br> 
+            secure location.Access them wherever you <br> 
+            need, share and collaborate with friends,<br>
+            family,and co-workers.
+          </p>
+          <form action="form" method="post" class="all-form">
+            <input type="email" name="form" id="form" class="input input--medium input--border" placeholder="Enter your email">
+            <button type="submit" class="btn btn--big btn--blue">
+              Get Started
+            </button>
+          </form>
+        </div>
+        <div class="all-img">
+          <img src="src/images/illustration-1.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fylo-stay">
+ 
+    <div class="stay-curve">
+      <img class="bg-curve-desktop" src="src/images/bg-curve-desktop.svg" alt="">
+      <img class="bg-curve-mobile" src="src/images/bg-curve-mobile.svg" alt="">
+    </div>
+    <section class="stay-background">
+      <div class="container">
+        <div class="stay-container">
+          <div class="stay-info">
+            <h2 class="title title--big title--dark-blue">
+              Stay productive, wherever you are
+            </h2>
+            <p class="paragraph paragraph--dark-blue paragraph--space">
+              Never let location be an issue when accessing<br> 
+              your files. Fylo has you covered for all of your file<br> 
+              storage needs.
+              <br class="space"><br class="space">
+              Securely share files and folders with friends, <br> 
+              family and colleagues for live collaboration. No<br>
+              email attachments required!
+            </p>
+            <a href="#" class="stay-link link link--small link--green link--line">
+              <span>See how Fylo works</span>
+              <img src="src/images/icon-arrow.svg" alt="icon-arrow">
+            </a>
+
+            <div class="stay-comment">
+              <p class="paragraph paragraph--dark-blue paragraph--medium">
+                Fylo has improved our team productivity by <br class="coment-space"> an <br> 
+                order of magnitude. Since making the <br class="coment-space"> switch <br>
+                our team has become a well-oiled <br class="coment-space">collaboration <br> 
+                machine.
+              </p>
+              <div class="comment-user">
+                <div class="user-img">
+                  <img src="src/images/avatar-testimonial.jpg" alt="avatar-testimonial">
+                </div>
+                <div class="user">
+                  <h4 class="title title--small title--dark-blue">
+                    Kyle Burton
+                  </h4>
+                  <p class="paragraph paragraph--small paragraph--dark-blue">
+                    Founder & CEO, Huddle
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="stay-img">
+            <img src="src/images/illustration-2.svg" alt="illustration-2">
+          </div>
+        </div>
+      </div>  
+    </section>
+
+  </section>
+  <section class="fylo-get">
+    <div class="container">
+        <div class="get-container">
+          <div class="get-info">
+            <h3 class="title title--medium title--white">
+              Get early access today
+            </h3>
+            <p class="paragraph paragraph--medium paragraph--white">
+              It only takes a minute to sign up and our free starter tier is <br> 
+              extremely generous. If you have any questions, our support <br> 
+              team would be happy to help you.
+            </p>
+          </div>
+          <div class="form">
+            <form action="form" method="get" class="get-form">
+              <input type="email" name="form" id="form" class="input input--big" placeholder="email@example">
+              <button type="submit" class="btn btn--medium btn--blue">
+                Get Started For Free
+              </button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="fylo-footer">
+    <div class="container">
+      <figure class="footer-logo">
+        <img src="src/images/logo.svg" alt="logo">
+      </figure>
+      <div class="footer-container">
+        <div class="footer-info">
+          <div class="icon icon--phone">
+            <p class="paragraph paragraph--medium paragraph--white ">
+              Phone: <a href="#" class="link link--small link--white">+1-543-123-4567</a>
+            </p>
+          </div>
+          <div class="icon icon--email">
+            <p class="paragraph paragraph--medium paragraph--white">
+              example@fylo.com
+            </p>
+          </div>
+          
+        </div>
+        <div class="navigation__menu">
+          <ul class="menu">
+            <li>
+              <a href="#" class="link link--small link--white">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--white">
+                Jobs
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--white">
+                Press
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--white">
+                Blog
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation__menu">
+          <ul class="menu">
+            <li>
+              <a href="#" class="link link--small link--white">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--white">
+                Terms
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link link--small link--white">
+                Privacy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="redes-social">
+          <div class="icon-facebook">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            </a>
+          </div>
+          <div class="icon-twiter">
+            <a href="#">
+               <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            </a>
+          </div>
+          <div class="icon-instagram">
+            <a href="#">
+              <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
